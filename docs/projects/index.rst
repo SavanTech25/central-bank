@@ -1,10 +1,11 @@
 
-Home
-====
+Projects
+========
 
+Templates and skeletons to start a new project in seconds.
 
 .. toctree::
-   :caption: Squeleton
+   :caption: Skeletons
    :maxdepth: 1
 
    squeletons.rst
