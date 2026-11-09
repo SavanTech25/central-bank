@@ -31,6 +31,15 @@ jobs:
     - name: Build HTML
       run: |
         make deployhtml
+
+    - name: Set up Node
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Build the local AI search index
+      run: |
+        make searchindex
         
     - name: Upload artifact
       uses: actions/upload-artifact@v4
