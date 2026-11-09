@@ -12,16 +12,19 @@
         gtag('js', new Date());
         gtag('config', 'G-XXXXXXXX');
     </script>
-    <link rel="index" title="Index" href="../genindex.html"><link rel="search" title="Search" href="../search.html"><link rel="next" title="Numba" href="numba.html"><link rel="prev" title="All Python Tips" href="index.html">
+    <link rel="index" title="Index" href="../genindex.html"><link rel="search" title="Search" href="../search.html"><link rel="next" title="Numba" href="numba.html"><link rel="prev" title="Python Tips" href="index.html">
 
-    <!-- Generated with Sphinx 9.1.0 and Furo 2025.12.19 -->
+    <!-- Generated with Sphinx 9.1.1 and Furo 2025.12.19 -->
         <title>Python Decouple - Central Bank</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d111a655" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=7bdb33bb" />
     <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
     <link rel="stylesheet" type="text/css" href="../_static/tabs.css?v=4c969af8" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=8dab3a3b" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@500;600;700&display=swap" />
+    <link rel="stylesheet" type="text/css" href="../_static/style.css?v=f111db9d" />
     
     
 
@@ -30,18 +33,30 @@
   body {
     --color-code-background: #f2f2f2;
   --color-code-foreground: #1e1e1e;
+  --color-brand-primary: #5B4BE0;
+  --color-brand-content: #5B4BE0;
+  --color-brand-visited: #7A3FD1;
+  --font-stack: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-stack--monospace: 'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace;
+  --font-stack--headings: 'Space Grotesk', Inter, sans-serif;
   
   }
   @media not print {
     body[data-theme="dark"] {
       --color-code-background: #202020;
   --color-code-foreground: #d0d0d0;
+  --color-brand-primary: #A99CFF;
+  --color-brand-content: #A99CFF;
+  --color-brand-visited: #C7A6FF;
   
     }
     @media (prefers-color-scheme: dark) {
       body:not([data-theme="light"]) {
         --color-code-background: #202020;
   --color-code-foreground: #d0d0d0;
+  --color-brand-primary: #A99CFF;
+  --color-brand-content: #A99CFF;
+  --color-brand-visited: #C7A6FF;
   
       }
     }
@@ -202,30 +217,41 @@
   <input type="hidden" name="area" value="default">
 </form>
 <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
-  <p class="caption" role="heading"><span class="caption-text">Projects Presentations</span></p>
-<ul>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../projects/index.html">Home</a><input aria-label="Toggle navigation of Home" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../projects/squeletons.html">Squeleton</a></li>
+  <ul class="current">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../ai/index.html">Generative AI &amp; Agents</a><input aria-label="Toggle navigation of Generative AI &amp; Agents" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../ai/genai.html">Generative AI Fundamentals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ai/rag.html">Learn about RAG</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ai/agents.html">AI Agents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ai/agentic.html">Agentic Systems</a></li>
 </ul>
 </li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../data/index.html">Data Platforms</a><input aria-label="Toggle navigation of Data Platforms" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../data/snowflake.html">Snowflake</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../data/databricks.html">Databricks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../data/comparison.html">Snowflake vs Databricks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../data/whats_new.html">What’s New (2025 – 2026)</a></li>
 </ul>
-<p class="caption" role="heading"><span class="caption-text">Python</span></p>
-<ul class="current">
-<li class="toctree-l1 current has-children"><a class="reference internal" href="index.html">All Python Tips</a><input aria-label="Toggle navigation of All Python Tips" checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul class="current">
+</li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="index.html">Python Tips</a><input aria-label="Toggle navigation of Python Tips" checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul class="current">
 <li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Python Decouple</a></li>
 <li class="toctree-l2"><a class="reference internal" href="numba.html">Numba</a></li>
 <li class="toctree-l2"><a class="reference internal" href="uv_learn.html">Learn UV</a></li>
 <li class="toctree-l2"><a class="reference internal" href="uv_cli.html">Modern Python CLI</a></li>
 </ul>
 </li>
-</ul>
-<p class="caption" role="heading"><span class="caption-text">Tools</span></p>
-<ul>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../tools/index.html">All the tools tips</a><input aria-label="Toggle navigation of All the tools tips" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../tools/snowflake.html">Learn about SnowFlake</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../tools/index.html">Tools &amp; Tips</a><input aria-label="Toggle navigation of Tools &amp; Tips" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../tools/free_apps.html">Free Tools &amp; Hosting for Starters</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../tools/fast_stack_forge.html">Using fast-stack-forge CLI Guide</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../tools/rag.html">Learn about RAG</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../projects/index.html">Projects</a><input aria-label="Toggle navigation of Projects" class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../projects/squeletons.html">Squeleton</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../quiz/index.html">Quizzes (QCM)</a><input aria-label="Toggle navigation of Quizzes (QCM)" class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../quiz/genai_agents.html">Quiz · GenAI &amp; Agents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../quiz/data_platforms.html">Quiz · Data Platforms</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../quiz/python_tools.html">Quiz · Python Tooling</a></li>
 </ul>
 </li>
 </ul>
@@ -248,12 +274,16 @@
         </a>
         <div class="content-icon-container">
           <div class="view-this-page">
-  <a class="muted-link" href="../_sources/python/decouple.rst.txt" title="View this page">
+  <a class="muted-link" href="https://github.com/Try-and-Try-2025/central-bank/blob/main/docs/python/decouple.rst?plain=true" title="View this page">
     <svg><use href="#svg-eye"></use></svg>
     <span class="visually-hidden">View this page</span>
   </a>
-</div>
-<div class="theme-toggle-container theme-toggle-content">
+</div><div class="edit-this-page">
+  <a class="muted-link" href="https://github.com/Try-and-Try-2025/central-bank/edit/main/docs/python/decouple.rst" rel="edit" title="Edit this page">
+    <svg><use href="#svg-pencil"></use></svg>
+    <span class="visually-hidden">Edit this page</span>
+  </a>
+</div><div class="theme-toggle-container theme-toggle-content">
             <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
               <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
               <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
@@ -306,43 +336,43 @@ and then access them in your Python code.</p>
 <p>Then, you can use it in your Python code like this:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">decouple</span><span class="w"> </span><span class="kn">import</span> <span class="n">config</span><span class="p">,</span> <span class="n">Csv</span>
 
-<span class="n">DEBUG</span> <span class="o">=</span> <span class="n">config</span><span class="p">(</span><span class="s1">&#39;DEBUG&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">cast</span><span class="o">=</span><span class="nb">bool</span><span class="p">)</span>
-<span class="n">TEMPLATE_DEBUG</span> <span class="o">=</span> <span class="n">config</span><span class="p">(</span><span class="s1">&#39;TEMPLATE_DEBUG&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="n">DEBUG</span><span class="p">,</span> <span class="n">cast</span><span class="o">=</span><span class="nb">bool</span><span class="p">)</span>
-<span class="n">SECRET_KEY</span> <span class="o">=</span> <span class="n">config</span><span class="p">(</span><span class="s1">&#39;SECRET_KEY&#39;</span><span class="p">)</span>
-<span class="n">DATABASE_URL</span> <span class="o">=</span> <span class="n">config</span><span class="p">(</span><span class="s1">&#39;DATABASE_URL&#39;</span><span class="p">)</span>
-<span class="n">PERCENTILE</span> <span class="o">=</span> <span class="n">config</span><span class="p">(</span><span class="s1">&#39;PERCENTILE&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="mi">90</span><span class="p">,</span> <span class="n">cast</span><span class="o">=</span><span class="nb">int</span><span class="p">)</span>
-<span class="n">ALLOWED_HOSTS</span> <span class="o">=</span> <span class="n">config</span><span class="p">(</span><span class="s1">&#39;ALLOWED_HOSTS&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s1">&#39;localhost&#39;</span><span class="p">,</span> <span class="n">cast</span><span class="o">=</span><span class="n">Csv</span><span class="p">())</span>
-<span class="n">TIMEOUT</span> <span class="o">=</span> <span class="n">config</span><span class="p">(</span><span class="s1">&#39;TIMEOUT&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="mf">5.0</span><span class="p">,</span> <span class="n">cast</span><span class="o">=</span><span class="nb">float</span><span class="p">)</span>
+<span class="n">DEBUG</span> <span class="o">=</span> <span class="n">config</span><span class="p">(</span><span class="s1">'DEBUG'</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">cast</span><span class="o">=</span><span class="nb">bool</span><span class="p">)</span>
+<span class="n">TEMPLATE_DEBUG</span> <span class="o">=</span> <span class="n">config</span><span class="p">(</span><span class="s1">'TEMPLATE_DEBUG'</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="n">DEBUG</span><span class="p">,</span> <span class="n">cast</span><span class="o">=</span><span class="nb">bool</span><span class="p">)</span>
+<span class="n">SECRET_KEY</span> <span class="o">=</span> <span class="n">config</span><span class="p">(</span><span class="s1">'SECRET_KEY'</span><span class="p">)</span>
+<span class="n">DATABASE_URL</span> <span class="o">=</span> <span class="n">config</span><span class="p">(</span><span class="s1">'DATABASE_URL'</span><span class="p">)</span>
+<span class="n">PERCENTILE</span> <span class="o">=</span> <span class="n">config</span><span class="p">(</span><span class="s1">'PERCENTILE'</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="mi">90</span><span class="p">,</span> <span class="n">cast</span><span class="o">=</span><span class="nb">int</span><span class="p">)</span>
+<span class="n">ALLOWED_HOSTS</span> <span class="o">=</span> <span class="n">config</span><span class="p">(</span><span class="s1">'ALLOWED_HOSTS'</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s1">'localhost'</span><span class="p">,</span> <span class="n">cast</span><span class="o">=</span><span class="n">Csv</span><span class="p">())</span>
+<span class="n">TIMEOUT</span> <span class="o">=</span> <span class="n">config</span><span class="p">(</span><span class="s1">'TIMEOUT'</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="mf">5.0</span><span class="p">,</span> <span class="n">cast</span><span class="o">=</span><span class="nb">float</span><span class="p">)</span>
 </pre></div>
 </div>
 <section id="focus-on-the-cast-parameter">
 <h2>Focus on the cast parameter<a class="headerlink" href="#focus-on-the-cast-parameter" title="Link to this heading">¶</a></h2>
 <p>It allows you to specify the type of the variable you want to retrieve.</p>
 <p>Example of usage of the cast parameter:</p>
-<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span>&gt;&gt;&gt; os.environ[&#39;DEBUG&#39;] = &#39;False&#39;
-&gt;&gt;&gt; config(&#39;DEBUG&#39;, cast=bool)
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span>&gt;&gt;&gt; os.environ['DEBUG'] = 'False'
+&gt;&gt;&gt; config('DEBUG', cast=bool)
 False
 
-&gt;&gt;&gt; os.environ[&#39;EMAIL_PORT&#39;] = &#39;42&#39;
-&gt;&gt;&gt; config(&#39;EMAIL_PORT&#39;, cast=int)
+&gt;&gt;&gt; os.environ['EMAIL_PORT'] = '42'
+&gt;&gt;&gt; config('EMAIL_PORT', cast=int)
 42
 
-&gt;&gt;&gt; os.environ[&#39;ALLOWED_HOSTS&#39;] = &#39;.localhost, .herokuapp.com&#39;
-&gt;&gt;&gt; config(&#39;ALLOWED_HOSTS&#39;, cast=lambda v: [s.strip() for s in v.split(&#39;,&#39;)])
-[&#39;.localhost&#39;, &#39;.herokuapp.com&#39;]
+&gt;&gt;&gt; os.environ['ALLOWED_HOSTS'] = '.localhost, .herokuapp.com'
+&gt;&gt;&gt; config('ALLOWED_HOSTS', cast=lambda v: [s.strip() for s in v.split(',')])
+['.localhost', '.herokuapp.com']
 
-&gt;&gt;&gt; os.environ[&#39;SECURE_PROXY_SSL_HEADER&#39;] = &#39;HTTP_X_FORWARDED_PROTO, https&#39;
-&gt;&gt;&gt; config(&#39;SECURE_PROXY_SSL_HEADER&#39;, cast=Csv(post_process=tuple))
-(&#39;HTTP_X_FORWARDED_PROTO&#39;, &#39;https&#39;)
+&gt;&gt;&gt; os.environ['SECURE_PROXY_SSL_HEADER'] = 'HTTP_X_FORWARDED_PROTO, https'
+&gt;&gt;&gt; config('SECURE_PROXY_SSL_HEADER', cast=Csv(post_process=tuple))
+('HTTP_X_FORWARDED_PROTO', 'https')
 
-&gt;&gt;&gt; os.environ[&#39;LIST_OF_INTEGERS&#39;] = &#39;1,2,3,4,5&#39;
-&gt;&gt;&gt; config(&#39;LIST_OF_INTEGERS&#39;, cast=Csv(int))
+&gt;&gt;&gt; os.environ['LIST_OF_INTEGERS'] = '1,2,3,4,5'
+&gt;&gt;&gt; config('LIST_OF_INTEGERS', cast=Csv(int))
 [1, 2, 3, 4, 5]
 
-&gt;&gt;&gt; os.environ[&#39;COMPLEX_STRING&#39;] = &#39;%virtual_env%\t <span class="ge">*important stuff*</span>\t   trailing spaces   &#39;
-&gt;&gt;&gt; csv = Csv(cast=lambda s: s.upper(), delimiter=&#39;\t&#39;, strip=&#39; %*&#39;)
-&gt;&gt;&gt; csv(os.environ[&#39;COMPLEX_STRING&#39;])
-[&#39;VIRTUAL_ENV&#39;, &#39;IMPORTANT STUFF&#39;, &#39;TRAILING SPACES&#39;]
+&gt;&gt;&gt; os.environ['COMPLEX_STRING'] = '%virtual_env%\t <span class="ge">*important stuff*</span>\t   trailing spaces   '
+&gt;&gt;&gt; csv = Csv(cast=lambda s: s.upper(), delimiter='\t', strip=' %*')
+&gt;&gt;&gt; csv(os.environ['COMPLEX_STRING'])
+['VIRTUAL_ENV', 'IMPORTANT STUFF', 'TRAILING SPACES']
 </pre></div>
 </div>
 </section>
@@ -350,18 +380,18 @@ False
 <h2>Choices Helper<a class="headerlink" href="#choices-helper" title="Link to this heading">¶</a></h2>
 <p>Allows for cast and validation based on a list of choices. For example:</p>
 <div class="highlight-rst notranslate"><div class="highlight"><pre><span></span>&gt;&gt;&gt; from decouple import config, Choices
- &gt;&gt;&gt; os.environ[&#39;CONNECTION_TYPE&#39;] = &#39;usb&#39;
- &gt;&gt;&gt; config(&#39;CONNECTION_TYPE&#39;, cast=Choices([&#39;eth&#39;, &#39;usb&#39;, &#39;bluetooth&#39;]))
- &#39;usb&#39;
+ &gt;&gt;&gt; os.environ['CONNECTION_TYPE'] = 'usb'
+ &gt;&gt;&gt; config('CONNECTION_TYPE', cast=Choices(['eth', 'usb', 'bluetooth']))
+ 'usb'
 
- &gt;&gt;&gt; os.environ[&#39;CONNECTION_TYPE&#39;] = &#39;serial&#39;
- &gt;&gt;&gt; config(&#39;CONNECTION_TYPE&#39;, cast=Choices([&#39;eth&#39;, &#39;usb&#39;, &#39;bluetooth&#39;]))
+ &gt;&gt;&gt; os.environ['CONNECTION_TYPE'] = 'serial'
+ &gt;&gt;&gt; config('CONNECTION_TYPE', cast=Choices(['eth', 'usb', 'bluetooth']))
  Traceback (most recent call last):
 <span class="c"> ...</span>
-<span class="c"> ValueError: Value not in list: &#39;serial&#39;; valid values are [&#39;eth&#39;, &#39;usb&#39;, &#39;bluetooth&#39;]</span>
+<span class="c"> ValueError: Value not in list: 'serial'; valid values are ['eth', 'usb', 'bluetooth']</span>
 
-<span class="c"> &gt;&gt;&gt; os.environ[&#39;SOME_NUMBER&#39;] = &#39;42&#39;</span>
-<span class="c"> &gt;&gt;&gt; config(&#39;SOME_NUMBER&#39;, cast=Choices([7, 14, 42], cast=int))</span>
+<span class="c"> &gt;&gt;&gt; os.environ['SOME_NUMBER'] = '42'</span>
+<span class="c"> &gt;&gt;&gt; config('SOME_NUMBER', cast=Choices([7, 14, 42], cast=int))</span>
 <span class="c"> 42</span>
 </pre></div>
 </div>
@@ -400,7 +430,7 @@ False
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">All Python Tips</div>
+                <div class="title">Python Tips</div>
                 
               </div>
             </a>
@@ -416,7 +446,10 @@ False
             
           </div>
           <div class="right-details">
-            
+            <div class="icons">
+              <a class="muted-link " href="https://github.com/Try-and-Try-2025/central-bank" aria-label="GitHub"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg></a>
+              
+            </div>
           </div>
         </div>
         
@@ -448,12 +481,14 @@ False
       
     </aside>
   </div>
-</div><script src="../_static/documentation_options.js?v=5929fcd5"></script>
+</div><script src="../_static/documentation_options.js?v=8a448e45"></script>
     <script src="../_static/doctools.js?v=fd6eb6e6"></script>
     <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script src="../_static/scripts/furo.js?v=46bd48cc"></script>
     <script src="../_static/tabs.js?v=3ee01567"></script>
     <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="../_static/qcm.js?v=42f75275"></script>
     </body>
 </html>

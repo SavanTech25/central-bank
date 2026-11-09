@@ -1,12 +1,12 @@
-==============================
+=================================
 Free Tools & Hosting for Starters
-==============================
+=================================
 
 When starting a new project (whether it is an AI application, mobile app, web app, or data engineering pipeline), cost shouldn't be a barrier. Below is a curated list of free and limited tiers that allow you to build, deploy, and showcase your projects for free.
 
-------------------------------------------
+--------------------------------------------
 1. Retrieval-Augmented Generation (RAG) & AI
-------------------------------------------
+--------------------------------------------
 
 Building a RAG app requires an LLM provider, a Vector Database, and an orchestration framework.
 
@@ -16,9 +16,9 @@ Building a RAG app requires an LLM provider, a Vector Database, and an orchestra
 *   **Cohere**: Free developer keys for embeddings and Rerank APIs, very useful for enhancing RAG retrieval accuracy.
 *   **Hugging Face Spaces**: Host your Python RAG demos (built with Streamlit, Gradio, or Chainlit) for free on standard CPU instances.
 
--------------------
+-----------------
 2. Mobile App Dev
--------------------
+-----------------
 
 Developing mobile applications (e.g., using React Native or Flutter) requires builds and backend services.
 
@@ -47,9 +47,9 @@ Ingesting, storing, and transforming data.
 *   **Google BigQuery Sandbox**: No credit card required. Gives you 10GB of active storage and 1TB of query processing per month.
 *   **Mage.ai / Airbyte (Local)**: Open-source pipelines that you can run locally for free to orchestrate and ingest data.
 
---------------------
+---------------------
 5. Data Visualisation
---------------------
+---------------------
 
 Creating and sharing dashboards.
 

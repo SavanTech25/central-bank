@@ -12,16 +12,19 @@
         gtag('js', new Date());
         gtag('config', 'G-XXXXXXXX');
     </script>
-    <link rel="index" title="Index" href="../genindex.html"><link rel="search" title="Search" href="../search.html"><link rel="prev" title="Using fast-stack-forge CLI Guide" href="fast_stack_forge.html">
+    <link rel="index" title="Index" href="../genindex.html"><link rel="search" title="Search" href="../search.html"><link rel="next" title="What’s New (2025 – 2026)" href="whats_new.html"><link rel="prev" title="Databricks" href="databricks.html">
 
-    <!-- Generated with Sphinx 9.1.0 and Furo 2025.12.19 -->
-        <title>Learn about RAG - Central Bank</title>
+    <!-- Generated with Sphinx 9.1.1 and Furo 2025.12.19 -->
+        <title>Snowflake vs Databricks - Central Bank</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d111a655" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=7bdb33bb" />
     <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
     <link rel="stylesheet" type="text/css" href="../_static/tabs.css?v=4c969af8" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=8dab3a3b" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@500;600;700&display=swap" />
+    <link rel="stylesheet" type="text/css" href="../_static/style.css?v=f111db9d" />
     
     
 
@@ -30,18 +33,30 @@
   body {
     --color-code-background: #f2f2f2;
   --color-code-foreground: #1e1e1e;
+  --color-brand-primary: #5B4BE0;
+  --color-brand-content: #5B4BE0;
+  --color-brand-visited: #7A3FD1;
+  --font-stack: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-stack--monospace: 'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace;
+  --font-stack--headings: 'Space Grotesk', Inter, sans-serif;
   
   }
   @media not print {
     body[data-theme="dark"] {
       --color-code-background: #202020;
   --color-code-foreground: #d0d0d0;
+  --color-brand-primary: #A99CFF;
+  --color-brand-content: #A99CFF;
+  --color-brand-visited: #C7A6FF;
   
     }
     @media (prefers-color-scheme: dark) {
       body:not([data-theme="light"]) {
         --color-code-background: #202020;
   --color-code-foreground: #d0d0d0;
+  --color-brand-primary: #A99CFF;
+  --color-brand-content: #A99CFF;
+  --color-brand-visited: #C7A6FF;
   
       }
     }
@@ -202,30 +217,41 @@
   <input type="hidden" name="area" value="default">
 </form>
 <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
-  <p class="caption" role="heading"><span class="caption-text">Projects Presentations</span></p>
-<ul>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../projects/index.html">Home</a><input aria-label="Toggle navigation of Home" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../projects/squeletons.html">Squeleton</a></li>
+  <ul class="current">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../ai/index.html">Generative AI &amp; Agents</a><input aria-label="Toggle navigation of Generative AI &amp; Agents" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../ai/genai.html">Generative AI Fundamentals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ai/rag.html">Learn about RAG</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ai/agents.html">AI Agents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ai/agentic.html">Agentic Systems</a></li>
 </ul>
 </li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="index.html">Data Platforms</a><input aria-label="Toggle navigation of Data Platforms" checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="snowflake.html">Snowflake</a></li>
+<li class="toctree-l2"><a class="reference internal" href="databricks.html">Databricks</a></li>
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Snowflake vs Databricks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="whats_new.html">What’s New (2025 – 2026)</a></li>
 </ul>
-<p class="caption" role="heading"><span class="caption-text">Python</span></p>
-<ul>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../python/index.html">All Python Tips</a><input aria-label="Toggle navigation of All Python Tips" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../python/index.html">Python Tips</a><input aria-label="Toggle navigation of Python Tips" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../python/decouple.html">Python Decouple</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../python/numba.html">Numba</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../python/uv_learn.html">Learn UV</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../python/uv_cli.html">Modern Python CLI</a></li>
 </ul>
 </li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../tools/index.html">Tools &amp; Tips</a><input aria-label="Toggle navigation of Tools &amp; Tips" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../tools/free_apps.html">Free Tools &amp; Hosting for Starters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tools/fast_stack_forge.html">Using fast-stack-forge CLI Guide</a></li>
 </ul>
-<p class="caption" role="heading"><span class="caption-text">Tools</span></p>
-<ul class="current">
-<li class="toctree-l1 current has-children"><a class="reference internal" href="index.html">All the tools tips</a><input aria-label="Toggle navigation of All the tools tips" checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="snowflake.html">Learn about SnowFlake</a></li>
-<li class="toctree-l2"><a class="reference internal" href="free_apps.html">Free Tools &amp; Hosting for Starters</a></li>
-<li class="toctree-l2"><a class="reference internal" href="fast_stack_forge.html">Using fast-stack-forge CLI Guide</a></li>
-<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Learn about RAG</a></li>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../projects/index.html">Projects</a><input aria-label="Toggle navigation of Projects" class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../projects/squeletons.html">Squeleton</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../quiz/index.html">Quizzes (QCM)</a><input aria-label="Toggle navigation of Quizzes (QCM)" class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../quiz/genai_agents.html">Quiz · GenAI &amp; Agents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../quiz/data_platforms.html">Quiz · Data Platforms</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../quiz/python_tools.html">Quiz · Python Tooling</a></li>
 </ul>
 </li>
 </ul>
@@ -248,12 +274,16 @@
         </a>
         <div class="content-icon-container">
           <div class="view-this-page">
-  <a class="muted-link" href="../_sources/tools/rag.rst.txt" title="View this page">
+  <a class="muted-link" href="https://github.com/Try-and-Try-2025/central-bank/blob/main/docs/data/comparison.rst?plain=true" title="View this page">
     <svg><use href="#svg-eye"></use></svg>
     <span class="visually-hidden">View this page</span>
   </a>
-</div>
-<div class="theme-toggle-container theme-toggle-content">
+</div><div class="edit-this-page">
+  <a class="muted-link" href="https://github.com/Try-and-Try-2025/central-bank/edit/main/docs/data/comparison.rst" rel="edit" title="Edit this page">
+    <svg><use href="#svg-pencil"></use></svg>
+    <span class="visually-hidden">Edit this page</span>
+  </a>
+</div><div class="theme-toggle-container theme-toggle-content">
             <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
               <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
               <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
@@ -266,53 +296,124 @@
           </label>
         </div>
         <article role="main" id="furo-main-content">
-          <section id="learn-about-rag">
-<h1>Learn about RAG<a class="headerlink" href="#learn-about-rag" title="Link to this heading">¶</a></h1>
+          <section id="snowflake-vs-databricks">
+<h1>Snowflake vs Databricks<a class="headerlink" href="#snowflake-vs-databricks" title="Link to this heading">¶</a></h1>
 <dl class="field-list simple">
 <dt class="field-odd">Version<span class="colon">:</span></dt>
-<dd class="field-odd"><p>2024-10</p>
+<dd class="field-odd"><p>2026-11</p>
 </dd>
 </dl>
-<p>Source:</p>
+<p>Both platforms are excellent and are converging fast. The right choice depends more on your
+<strong>team’s skills</strong> and <strong>workloads</strong> than on features.</p>
+<div class="table-wrapper colwidths-given docutils container">
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 22.0%" />
+<col style="width: 39.0%" />
+<col style="width: 39.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"></th>
+<th class="head"><p>❄️ Snowflake</p></th>
+<th class="head"><p>🧱 Databricks</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Origin / DNA</p></td>
+<td><p>Cloud data <strong>warehouse</strong>, SQL-first</p></td>
+<td><p>Apache <strong>Spark</strong>, data lake / notebooks, code-first</p></td>
+</tr>
+<tr class="row-odd"><td><p>Storage</p></td>
+<td><p>Managed micro-partitions, or Iceberg tables</p></td>
+<td><p>Your cloud storage, Delta Lake (Iceberg via UniForm)</p></td>
+</tr>
+<tr class="row-even"><td><p>Governance</p></td>
+<td><p>Horizon Catalog (Polaris / Open Catalog for Iceberg)</p></td>
+<td><p>Unity Catalog (open-source)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Compute</p></td>
+<td><p>Virtual warehouses (T-shirt sizes), serverless features</p></td>
+<td><p>Clusters, serverless, SQL warehouses (Photon)</p></td>
+</tr>
+<tr class="row-even"><td><p>Data engineering</p></td>
+<td><p>SQL, Dynamic Tables, Streams &amp; Tasks, Openflow, dbt Projects, Snowpark</p></td>
+<td><p>Spark, Lakeflow (Connect, Declarative Pipelines, Jobs, Designer)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Streaming</p></td>
+<td><p>Snowpipe Streaming, Dynamic Tables</p></td>
+<td><p>Structured Streaming, real-time mode</p></td>
+</tr>
+<tr class="row-even"><td><p>ML</p></td>
+<td><p>Snowpark ML, Notebooks, Model Registry, Feature Store</p></td>
+<td><p>MLflow, Mosaic AI, Feature Store, GPUs — very mature</p></td>
+</tr>
+<tr class="row-odd"><td><p>GenAI functions</p></td>
+<td><p>Cortex AI functions (<code class="docutils literal notranslate"><span class="pre">AI_COMPLETE</span></code>, <code class="docutils literal notranslate"><span class="pre">AI_CLASSIFY</span></code>…)</p></td>
+<td><p>AI functions (<code class="docutils literal notranslate"><span class="pre">ai_query</span></code>, <code class="docutils literal notranslate"><span class="pre">ai_classify</span></code>…)</p></td>
+</tr>
+<tr class="row-even"><td><p>Agents</p></td>
+<td><p>Cortex Agents, CoWork, CoCo</p></td>
+<td><p>Agent Bricks, Genie One / Genie Code</p></td>
+</tr>
+<tr class="row-odd"><td><p>Operational DB</p></td>
+<td><p>Snowflake Postgres</p></td>
+<td><p>Lakebase (Postgres)</p></td>
+</tr>
+<tr class="row-even"><td><p>Apps</p></td>
+<td><p>Streamlit in Snowflake, Native Apps</p></td>
+<td><p>Databricks Apps</p></td>
+</tr>
+<tr class="row-odd"><td><p>Learning for free</p></td>
+<td><p>30-day trial</p></td>
+<td><p>Free Edition</p></td>
+</tr>
+<tr class="row-even"><td><p>Ease of use</p></td>
+<td><p>Very easy to operate; almost no tuning</p></td>
+<td><p>More knobs; more power for engineers</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<section id="how-to-choose">
+<h2>How to choose<a class="headerlink" href="#how-to-choose" title="Link to this heading">¶</a></h2>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Lean towards Snowflake if…</div>
 <ul class="simple">
-<li><p><a class="reference external" href="https://www.linkedin.com/posts/youssef-hosni-b2960b135_rag-is-one-of-the-easiest-ways-to-build-llm-activity-7161388237284876288-Q4ha?utm_source=share&amp;utm_medium=member_desktop">https://www.linkedin.com/posts/youssef-hosni-b2960b135_rag-is-one-of-the-easiest-ways-to-build-llm-activity-7161388237284876288-Q4ha?utm_source=share&amp;utm_medium=member_desktop</a></p></li>
-<li><p><a class="reference external" href="https://www.linkedin.com/posts/stevenouri_rag-activity-7164902842330275840-HN23?utm_source=share&amp;utm_medium=member_desktop">https://www.linkedin.com/posts/stevenouri_rag-activity-7164902842330275840-HN23?utm_source=share&amp;utm_medium=member_desktop</a></p></li>
-<li><p><a class="reference external" href="https://www.linkedin.com/posts/alexwang2911_rag-generativeai-llms-activity-7194932416321343488-S1v8?utm_source=share&amp;utm_medium=member_desktop">https://www.linkedin.com/posts/alexwang2911_rag-generativeai-llms-activity-7194932416321343488-S1v8?utm_source=share&amp;utm_medium=member_desktop</a></p></li>
+<li><p class="sd-card-text">Your team is mostly <strong>SQL / analytics engineers</strong></p></li>
+<li><p class="sd-card-text">You want minimal operations and fast time-to-value</p></li>
+<li><p class="sd-card-text">Data sharing / Marketplace is important</p></li>
+<li><p class="sd-card-text">BI and governed self-service are the main use cases</p></li>
 </ul>
-<section id="introduction-to-rag">
-<h2>Introduction to RAG<a class="headerlink" href="#introduction-to-rag" title="Link to this heading">¶</a></h2>
-<p><strong>RAG</strong> is one of the easiest ways to build LLM applications over your own data, however building a production-level RAG can be challenging. Here are five ways to improve your RAG pipeline:</p>
-<ol class="arabic simple">
-<li><p><strong>Enhancing Retrieval</strong> : The retrieval aspect of RAG essentially functions as a search engine. Implementing hybrid retrieval techniques, combining lexical and vector-based methods, alongside cross-encoder re-ranking, can significantly enhance the retrieval of relevant data.</p></li>
-<li><p><strong>Data Standardization</strong> : Data utilized by RAG often originates from diverse sources, leading to varied formats and potential artifacts. Establishing a robust data preprocessing pipeline, whether through manual curation or leveraging LLM-based judgment, ensures proper standardization, filtering, and extraction of data, mitigating artifacts that may hinder the understanding by the LLM.</p></li>
-<li><p><strong>Crafting Effective Prompts</strong> : Effective application of RAG hinges not only on retrieving accurate context but also on prompt engineering. Crafting prompts that encompass relevant context and are formatted to elicit grounded responses from the LLM is crucial. Utilizing LLMs with expansive context windows and adopting strategies such as diversity and lost-in-the-middle selection facilitate optimal incorporation of context into prompts.</p></li>
-<li><p><strong>Rigorous Evaluation</strong> : Developing repeatable and accurate evaluation pipelines for RAG, assessing both the overall system performance and individual components, is imperative. Utilizing standard search metrics like DCG and nDCG for evaluating the retrieval pipeline and employing LLM-based judgment for evaluating the generation component ensures comprehensive assessment. Leveraging systems like RAGAS facilitates the evaluation of the complete RAG pipeline.</p></li>
-<li><p><strong>Continuous Data Collection</strong> : Post-deployment of the RAG application, ongoing data collection is vital for continual improvement. Strategies such as finetuning retrieval models based on relevant query-text pairs, refining LLMs using high-quality outputs, and conducting AB tests to quantitatively measure pipeline enhancements contribute to performance optimization over time.</p></li>
-</ol>
-<img alt="../_images/rag.jpg" src="../_images/rag.jpg" />
-</section>
-<section id="rag-state-of-the-art">
-<h2>RAG State of the art<a class="headerlink" href="#rag-state-of-the-art" title="Link to this heading">¶</a></h2>
-<p>The term Retrieval-Augmented Generation (RAG) was first introduced in a paper by a team at Facebook AI Research in 2020, as a way to improve the accuracy and reliability of generative AI models by fetching facts from external sources.</p>
-<p>Initially, RAG focused on using unstructured data, but it has expanded to incorporate high-quality structured data, like knowledge graphs, to address issues like hallucinations and incorrect knowledge.</p>
-<p>Recently, researchers have also started exploring self-retrieval, which involves using LLMs’ own knowledge to enhance their performance.</p>
-<p>The image is from the paper ‘Retrieval-Augmented Generation for Large Language Models: A Survey’, last revised on Mar 2024; which should be a great read.</p>
-<img alt="../_images/rag_state_of_the_art.jpg" src="../_images/rag_state_of_the_art.jpg" />
-</section>
-<section id="rag-cheatsheet">
-<h2>RAG Cheatsheet<a class="headerlink" href="#rag-cheatsheet" title="Link to this heading">¶</a></h2>
-<p>RAG combines the vast knowledge of LLMs with your data, enhancing AI’s ability to provide contextually rich responses.</p>
-<p>It leverages existing LLM data and enriches it with your unique datasets through a process of loading, indexing, storing, querying, and evaluation.</p>
-<p>Page 1</p>
-<img alt="../_images/1708245935241_page-0001.jpg" src="../_images/1708245935241_page-0001.jpg" />
-<p>Page 2</p>
-<img alt="../_images/1708245935241_page-0002.jpg" src="../_images/1708245935241_page-0002.jpg" />
-<p>Page 3</p>
-<img alt="../_images/1708245935241_page-0003.jpg" src="../_images/1708245935241_page-0003.jpg" />
-<p>Page 4</p>
-<img alt="../_images/1708245935241_page-0004.jpg" src="../_images/1708245935241_page-0004.jpg" />
-<p>Page 5</p>
-<img alt="../_images/1708245935241_page-0005.jpg" src="../_images/1708245935241_page-0005.jpg" />
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Lean towards Databricks if…</div>
+<ul class="simple">
+<li><p class="sd-card-text">Your team is <strong>Python / Spark / ML</strong> heavy</p></li>
+<li><p class="sd-card-text">You need large-scale streaming, custom ML, GPUs</p></li>
+<li><p class="sd-card-text">You want data in <strong>open formats</strong> in your own storage</p></li>
+<li><p class="sd-card-text">You build complex AI/agent systems close to the data</p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Many companies use <strong>both</strong>: open table formats (Iceberg, Delta + UniForm) and catalog
+federation make it increasingly possible to keep one copy of the data and query it from
+either engine.</p>
+</div>
 </section>
 </section>
 
@@ -321,15 +422,23 @@
       <footer>
         
         <div class="related-pages">
-          
-          <a class="prev-page" href="fast_stack_forge.html">
+          <a class="next-page" href="whats_new.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">What’s New (2025 – 2026)</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="databricks.html">
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">Using fast-stack-forge CLI Guide</div>
+                <div class="title">Databricks</div>
                 
               </div>
             </a>
@@ -345,7 +454,10 @@
             
           </div>
           <div class="right-details">
-            
+            <div class="icons">
+              <a class="muted-link " href="https://github.com/Try-and-Try-2025/central-bank" aria-label="GitHub"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg></a>
+              
+            </div>
           </div>
         </div>
         
@@ -363,10 +475,8 @@
         <div class="toc-tree-container">
           <div class="toc-tree">
             <ul>
-<li><a class="reference internal" href="#">Learn about RAG</a><ul>
-<li><a class="reference internal" href="#introduction-to-rag">Introduction to RAG</a></li>
-<li><a class="reference internal" href="#rag-state-of-the-art">RAG State of the art</a></li>
-<li><a class="reference internal" href="#rag-cheatsheet">RAG Cheatsheet</a></li>
+<li><a class="reference internal" href="#">Snowflake vs Databricks</a><ul>
+<li><a class="reference internal" href="#how-to-choose">How to choose</a></li>
 </ul>
 </li>
 </ul>
@@ -378,12 +488,14 @@
       
     </aside>
   </div>
-</div><script src="../_static/documentation_options.js?v=5929fcd5"></script>
+</div><script src="../_static/documentation_options.js?v=8a448e45"></script>
     <script src="../_static/doctools.js?v=fd6eb6e6"></script>
     <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script src="../_static/scripts/furo.js?v=46bd48cc"></script>
     <script src="../_static/tabs.js?v=3ee01567"></script>
     <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="../_static/qcm.js?v=42f75275"></script>
     </body>
 </html>

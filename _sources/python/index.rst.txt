@@ -1,6 +1,6 @@
 
-All Python Tips
-================
+Python Tips
+===========
 
 
 .. toctree::
