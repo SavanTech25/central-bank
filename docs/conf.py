@@ -37,6 +37,7 @@ extensions = [
     "sphinxcontrib.googleanalytics",
     "sphinx_design",
     "qcm",  # local extension: docs/_ext/qcm.py (interactive quizzes)
+    "askbot",  # local extension: docs/_ext/askbot.py (content chunks for the local AI bot)
 ]
 
 # Change with your Google Analytics ID
@@ -109,7 +110,7 @@ html_css_files = [
     "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@500;600;700&display=swap",
     "style.css",
 ]
-html_js_files = ["qcm.js"]
+html_js_files = ["qcm.js", ("askbot.js", {"type": "module"})]
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

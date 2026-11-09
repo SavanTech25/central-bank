@@ -1,0 +1,12 @@
+{
+  "name": "central-bank-search-index",
+  "private": true,
+  "type": "module",
+  "description": "Builds the embeddings index used by the in-browser 'Ask the docs' bot.",
+  "scripts": {
+    "embed": "node embed-index.mjs"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "3.8.1"
+  }
+}

@@ -101,6 +101,11 @@ livehtml:
 deployhtml:
 	sphinx-build -b html "$(SOURCEDIR)" _build/html
 
+## Build the embeddings index for the in-browser "Ask the docs" bot (needs Node 20+)
+searchindex:
+	npm ci --prefix scripts --no-fund --no-audit
+	node scripts/embed-index.mjs _build/html
+
 
 
 #################################################################################
