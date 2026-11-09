@@ -1,18 +1,17 @@
 
-All the tools tips
-==================
+Tools & Tips
+============
 
+Practical tools to build, host and scaffold projects quickly.
 
 .. toctree::
-   :caption: Softwares
+   :caption: Software
    :maxdepth: 1
 
-   snowflake.rst
    free_apps.rst
    fast_stack_forge.rst
 
-.. toctree::
-   :caption: Theorical courses
-   :maxdepth: 1
+.. seealso::
 
-   rag.rst
+   - The RAG notes moved to :doc:`/ai/rag`.
+   - The Snowflake notes moved to :doc:`/data/snowflake`.

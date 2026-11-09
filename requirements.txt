@@ -31,3 +31,4 @@ sphinxcontrib-youtube
 sphinxprettysearchresults
 sphinxcontrib-googleanalytics==0.4
 
+sphinx-design
